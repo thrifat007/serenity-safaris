@@ -1,7 +1,181 @@
+/* Global Styles */
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
+}
+body {
+  font-family: "Mulish", sans-serif;
+  background: #fff;
+}
+
+button {
+  cursor: pointer;
+  transition: 0.2s ease-out all;
+}
+.readmore:hover,
+.booknow:hover,
+.seemorepkg:hover {
+  background: #ffffff00;
+  color: #ff5400;
+  border: 1px solid #ff5400;
+}
+
+/* Header related Styles */
+
+header {
+  margin: 50px 135px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.nav-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-title h2 {
+  color: #131318;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.color-nav-title {
+  color: #ff5400;
+}
+
+nav ul {
+  display: flex;
+  gap: 44px;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+nav .home-menu {
+  color: #ff5400;
+  font-weight: 700;
+}
+
+nav li {
+  list-style: none;
+  color: #424247;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: 0.3s ease-out all;
+}
+nav li:hover {
+  color: #ff5400;
+}
+.nav-bar {
+  display: none;
+}
+
+/* Header BAnner related Styles */
+header .banner {
+  background-image: url("../Images/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  border-radius: 16px;
+}
+
+.banner-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 106px 185px;
+  background: linear-gradient(
+    180deg,
+    rgba(19, 19, 24, 0.8) 0%,
+    rgba(19, 19, 24, 0) 100%
+  );
+  border-radius: 16px;
+}
+
+.banner-content {
+  text-align: center;
+}
+
+.banner-content h1 {
+  color: #fff;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.banner-content p {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 48px;
+}
+
+.banner-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.banner-input input[type="text"] {
+  font-family: "Mulish", sans-serif;
+  width: 100%;
+  border-radius: 8px;
+  background: #fff;
+  padding: 16px;
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.banner-input select {
+  cursor: pointer;
+  width: 100%;
+  border-radius: 8px;
+  background: #fff;
+  padding: 15px;
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.banner-input .submit {
+  width: 100%;
+  border-radius: 8px;
+  background: #ff5400;
+  padding: 16px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
 }
