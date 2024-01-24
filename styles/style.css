@@ -972,3 +972,702 @@ footer {
   font-size: 16px;
   font-weight: 300;
 }
+/*  Media Queries */
+
+/* Mobile Devices */
+@media screen and (max-width: 576px) {
+  .nav-bar {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .nav-title h2 {
+    font-size: 21.543px;
+  }
+
+  .nav-title img {
+    width: 28.724px;
+    height: 33.516px;
+  }
+
+  header {
+    margin: 50px 20px;
+  }
+
+  header .banner {
+    height: auto;
+    border-radius: 16px;
+  }
+
+  .banner-area {
+    padding: 32px 24px;
+  }
+
+  .banner-content {
+    text-align: center;
+  }
+
+  .banner-content h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+
+  .banner-content p {
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+
+  .banner-input {
+    width: 100%;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  /* Poplar Tour Section */
+  .p-tour {
+    margin: 30px 20px;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .p-tour-content {
+    flex-basis: 100%;
+  }
+
+  .p-tour-img {
+    flex-basis: 100%;
+  }
+
+  .p-tour-img img {
+    width: 100%;
+  }
+
+  .p-tour-content h2 {
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
+
+  .p-tour-content p {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .p-tour-content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 14px;
+    margin-bottom: 16px;
+  }
+
+  .p-tour-content ul li {
+    font-size: 14px;
+  }
+
+  .p-tour-content .p-tour-des {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+
+  .readmore {
+    font-size: 20px;
+  }
+
+  /* Destination Section */
+
+  .gallery {
+    margin: 30px 20px;
+  }
+
+  .gallery .content {
+    width: 100%;
+  }
+
+  .gallery .content h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+
+  .gallery .content p {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .gallery-item .first,
+  .second,
+  .third {
+    flex-direction: column;
+  }
+
+  .first .one,
+  .first .two,
+  .second .one,
+  .second .two,
+  .second .three,
+  .third .one,
+  .third .two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .first h2 .sri,
+  .us,
+  .kashmir,
+  .ban,
+  .band {
+    width: fit-content;
+    margin: 0;
+  }
+
+  /* Why Choose US section */
+  .why-choose-us {
+    margin: 30px 20px;
+  }
+
+  .why-choose-us .content {
+    width: 100%;
+  }
+
+  .why-choose-us .content h2 {
+    font-size: 30px;
+  }
+
+  .why-choose-us .content p {
+    font-size: 14px;
+  }
+
+  .why-choose-us .boxes {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  .second-line-box {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /* Deals & Discount Section */
+  .deals {
+    margin: 30px 20px;
+    gap: 24px;
+  }
+
+  .deal1,
+  .deal2,
+  .deal3 {
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .deal2 {
+    justify-content: flex-end;
+  }
+
+  .deal-item {
+    padding: 25px;
+  }
+
+  .deal-item h3 {
+    margin-top: 18px;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+
+  .deal-item p {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .deals-content {
+    width: 90%;
+  }
+
+  .deals-content h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .deals-content p {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .seemorepkg {
+    font-size: 16px;
+  }
+
+  /* Testimonial Section */
+
+  .testimonial {
+    margin: 30px 20px;
+  }
+
+  .testimonial h2 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  .testimonial .cards {
+    flex-direction: column;
+  }
+
+  .testimonial .cards .card {
+    padding: 16px;
+    width: 100%;
+  }
+
+  .testimonial .cards .card h3 {
+    font-size: 20px;
+  }
+
+  .testimonial .cards .card p {
+    font-size: 14px;
+  }
+
+  /* Perfect Place Section */
+
+  .perferct-place {
+    margin: 30px 25px;
+  }
+
+  .perferct-place .container {
+    flex-direction: column;
+  }
+
+  .container .text,
+  .container .img {
+    flex-basis: 100%;
+  }
+
+  .container .img h3 {
+    font-size: 20px;
+    width: 80%;
+    position: relative;
+    bottom: 190px;
+  }
+
+  .container .text h2 {
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
+
+  .container .text p {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .container .text li {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .seemore {
+    font-size: 20px;
+  }
+
+  /* Newsletter Section */
+
+  .newsletter {
+    margin: 30px 20px;
+  }
+
+  .newsletter-container {
+    flex-direction: column;
+  }
+
+  .newsletter .subscribe-box,
+  .newsletter .img {
+    width: 100%;
+  }
+
+  .newsletter .subscribe-box {
+    padding: 24px;
+  }
+
+  .newsletter-container .img .move {
+    left: 45%;
+    bottom: 120px;
+    width: 50%;
+    height: 79.268px;
+    transform: rotate(-19deg);
+  }
+
+  .newsletter-container .img .move h4 {
+    font-size: 17px;
+  }
+
+  .newsletter-container .img .move h5 {
+    font-size: 12px;
+  }
+
+  /* Footer Section */
+  footer {
+    width: auto;
+    padding: 50px 44px 20px 44px;
+  }
+
+  .footer-area p {
+    width: 100%;
+    font-size: 14px;
+  }
+  .foot-title {
+    gap: 8px;
+  }
+  .foot-title h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    margin-left: 0;
+  }
+
+  .foot-title img {
+    width: 28.724px;
+    height: 33.516px;
+  }
+  hr {
+    margin: 24px 0;
+  }
+}
+/* Tablet Devices */
+@media screen and (min-width: 576px) and (max-width: 1024px) {
+  .nav-bar {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  header {
+    margin: 50px 20px;
+  }
+
+  header .banner {
+    height: auto;
+    border-radius: 16px;
+  }
+
+  .banner-area {
+    padding: 32px 24px;
+  }
+
+  .banner-content {
+    text-align: center;
+  }
+
+  .banner-content h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+
+  .banner-content p {
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+
+  .banner-input {
+    width: 100%;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  /* Popular Tour Section */
+  .p-tour {
+    margin: 30px 20px;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .p-tour-content {
+    flex-basis: 100%;
+  }
+
+  .p-tour-img {
+    flex-basis: 100%;
+  }
+
+  .p-tour-img img {
+    width: 100%;
+  }
+
+  .p-tour-content h2 {
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
+
+  .p-tour-content p {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .p-tour-content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 14px;
+    margin-bottom: 16px;
+  }
+
+  .p-tour-content ul li {
+    font-size: 16px;
+  }
+
+  .p-tour-content .p-tour-des {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+  .readmore {
+    font-size: 20px;
+  }
+
+  /* gallery started */
+
+  .gallery {
+    margin: 30px 20px;
+  }
+
+  .gallery .content {
+    width: 100%;
+  }
+
+  .gallery .content h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+
+  .gallery .content p {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .gallery-item .first,
+  .second,
+  .third {
+    flex-direction: column;
+  }
+
+  .first .one,
+  .first .two,
+  .second .one,
+  .second .two,
+  .second .three,
+  .third .one,
+  .third .two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  .first h2 .sri,
+  .us,
+  .kashmir,
+  .ban,
+  .band {
+    width: fit-content;
+    margin: 0;
+  }
+
+  /* Why Choose Us SectionS */
+  .why-choose-us {
+    margin: 30px 20px;
+  }
+
+  .why-choose-us .boxes {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  .second-line-box {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /* Deals & Discount Section*/
+  .deals {
+    margin: 30px 20px;
+    gap: 24px;
+  }
+
+  .deal1,
+  .deal2,
+  .deal3 {
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .deal2 {
+    justify-content: flex-end;
+  }
+
+  .deal-item {
+    padding: 25px;
+  }
+
+  .deal-item h3 {
+    margin-top: 18px;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+
+  .deal-item p {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .deals-content {
+    width: 90%;
+  }
+
+  .deals-content h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .deals-content p {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  /* Testimonial Section */
+
+  .testimonial {
+    margin: 30px 20px;
+  }
+
+  .testimonial h2 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  .testimonial .cards {
+    flex-direction: column;
+  }
+
+  .testimonial .cards .card {
+    padding: 16px;
+    width: 100%;
+  }
+
+  .testimonial .cards .card h3 {
+    font-size: 20px;
+  }
+
+  .testimonial .cards .card p {
+    font-size: 14px;
+  }
+
+  /* Perfect Place Section */
+
+  .perferct-place {
+    margin: 30px 25px;
+  }
+
+  .perferct-place .container {
+    flex-direction: column;
+  }
+
+  .container .text,
+  .container .img {
+    flex-basis: 100%;
+  }
+
+  .container .img h3 {
+    font-size: 30px;
+    width: 80%;
+    position: relative;
+    bottom: 350px;
+  }
+
+  .container .text h2 {
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
+
+  .container .text p {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .container .text li {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .seemore {
+    font-size: 20px;
+  }
+
+  /* Newsletter Section */
+
+  .newsletter {
+    margin: 30px 20px;
+  }
+
+  .newsletter-container {
+    flex-direction: column;
+  }
+
+  .newsletter .subscribe-box,
+  .newsletter .img {
+    width: 100%;
+  }
+
+  .newsletter .subscribe-box {
+    padding: 24px;
+  }
+
+  .newsletter-container .img .move {
+    left: 40%;
+    bottom: 130px;
+    width: 310px;
+    height: 79.268px;
+    transform: rotate(-19deg);
+  }
+
+  .newsletter-container .img .move h4 {
+    font-size: 17px;
+  }
+
+  .newsletter-container .img .move h5 {
+    font-size: 12px;
+  }
+  /* Footer Section */
+  footer {
+    width: auto;
+    padding: 50px 44px 20px 44px;
+  }
+
+  .footer-area p {
+    width: 100%;
+    font-size: 14px;
+  }
+  .foot-title {
+    gap: 8px;
+  }
+  .foot-title h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    margin-left: 0;
+  }
+
+  .foot-title img {
+    width: 28.724px;
+    height: 33.516px;
+  }
+  hr {
+    margin: 24px 0;
+  }
+}
